@@ -11,7 +11,8 @@ $number2=13;
    // printf("odd");
 //}
 
-if ($number!=$number2){
+if ($number!=$number2)//Shob shomy mone rakhte hobe  kono condition declare korle er pore ; semiclone use kora jabe na .
+{
 
     printf("Not Equal");
 }
