@@ -14,7 +14,7 @@ printf("Hi i am true");
 
 if(false || false){
 
-    printf("Wow I got Burger");
+    printf("Wow! I got Burger");
 }
 else{
 
