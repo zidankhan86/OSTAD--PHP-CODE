@@ -12,7 +12,7 @@ printf("Hi i am true");
 }*/
 
 
-if(false || false){
+if(true || true){
 
     printf("Wow! I got Burger");
 }
