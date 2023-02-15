@@ -1,7 +1,10 @@
 <?php
-$category=array('Men','Woman','Kids','Others Products');
-foreach($category as $item){
+$products=array('first name','last name','sar name');
+
+foreach($products as $data){
+
+printf("$data\n");
 
 
-    printf("$item\n");
+
 }

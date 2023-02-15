@@ -1,12 +1,12 @@
 <?php
-$food="banana";
+$food="tea";
 
-if($food=="apple"||$food="banana"){
+if($food=="Apple"||$food=="Mango"){
 
     printf("Its a Fruit");
 }else{
 
-printf("Soory! There is no fruit");
+printf("Sorry! There is no fruit");
 
 }
 
