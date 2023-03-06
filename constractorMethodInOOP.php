@@ -35,3 +35,4 @@ echo PHP_EOL;
 $object2->sayHi();
 echo PHP_EOL;
 $objet4=new human("Do echo ","No sorry i am here as __argumentVariable");
+
