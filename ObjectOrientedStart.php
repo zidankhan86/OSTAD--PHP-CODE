@@ -31,7 +31,7 @@ function sayHi(){
 
 
 }
-$object1=new Human;
+$object1=new Human('h','b');
 $object1->sayHi();
 echo PHP_EOL;
 echo $object1->sayHi();//set Operation
