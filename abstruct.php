@@ -2,6 +2,9 @@
 // Define an abstract class with an abstract function
 abstract class Shape {
   abstract public function getArea();
+  public function human(){
+    
+  }
 }
 
 // Define a subclass that extends the abstract class
