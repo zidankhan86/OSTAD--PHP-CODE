@@ -2,6 +2,7 @@
 
 interface BaseAnimal
 {
+    
     function isAlive();
     function canEat($parameter1, $parameter2);
     function breed();
@@ -10,12 +11,14 @@ interface BaseAnimal
 
 class Animal implements BaseAnimal
 {
+    public $result;
     function isAlive()
     {
-
+        $this->result=10;
     }
     function canEat($parameter1, $parameter2)
     {
+        echo $this->result;
     }
     function breed()
     {
@@ -24,13 +27,6 @@ class Animal implements BaseAnimal
 
     }
 }
-
-
-
-
-
-
-
 
 interface BaseHuman extends BaseAnimal
 {
@@ -55,3 +51,4 @@ class Human implements BaseHuman
 }
 $object = new Human('', '');
 echo $object instanceof human;
+
