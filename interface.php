@@ -50,5 +50,7 @@ class Human implements BaseHuman
     }
 }
 $object = new Human('', '');
-echo $object instanceof human;
+//echo $object instanceof human;
+echo $object instanceof Animal;
+$object->isAlive();
 
