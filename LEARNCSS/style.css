@@ -1,0 +1,16 @@
+.my-style{
+
+    color: blue;
+    font-size: 90px;
+
+
+}
+
+
+/* There are may type of CSS */
+/* 1.CSS ELEMENT SELECTOR
+2.CSS CLASS SELECTOR (.MY_STYLE)
+3. CSS ID SELECTOR (#MY_STYLE)
+4. CSS UNIVERSAL SELECTOR (*)
+5. CSS GROUP SELECTOR (h1,h2,h3) */
+
