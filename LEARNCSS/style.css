@@ -1,3 +1,13 @@
+
+.my-div{
+height: 400px;
+width: 400px;
+background-color: blueviolet;
+border-radius: 100px 1px 100px 1px;
+
+}
+
+
 body{
 
     /* background-color: aqua; */
