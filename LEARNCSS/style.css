@@ -27,6 +27,12 @@ body{
 
 
 }
+img{
+
+    width: 500px;
+    height: auto;
+    filter:blur(0px);
+}
 
 
 /* There are may type of CSS */
