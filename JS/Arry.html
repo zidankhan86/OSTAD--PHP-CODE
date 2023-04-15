@@ -10,18 +10,22 @@
     <script>
 
 var Cat = [
-"Bangla","English","Hindi","Urdu","Uk Eng", "Telegu"
+"Bangla","English","Hindi","Urdu","Uk Eng", "Telegu","Bangla","English","Hindi","Urdu","Uk Eng", "Telegu"
 
 
 ];
 
 
-var i 
+/*var i 
 for(i=0;i<Cat.length;i=i+1){
 
     document.write(Cat[i]+"<br>")
 
+}*/
+for (var item in Cat){
+    document.write(Cat[item]+"<br>");
 }
+
 
 
 
