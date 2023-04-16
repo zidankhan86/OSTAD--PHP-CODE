@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Window in JS</title>
+</head>
+<body>
+
+    <script>
+
+        function objAlert(){
+            alert('Save Success!')
+
+        }
+        function objConfirm(){
+
+           var obj = document.write(confirm("Do you wants to delete ")) 
+
+
+        }
+        function objPrompt(){
+            prompt("Write your name")
+            //var obj = document.write(prompt("Do you wants to delete ")) 
+
+        }
+        function objOpen(){
+            open("Write your name")
+        }
+        function objClose(){
+            close("Write your name")
+        }
+    </script>
+    <button onclick="objClose()">Submit</button>
+    
+</body>
+</html>
