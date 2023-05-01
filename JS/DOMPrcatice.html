@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+</head>
+<body>
+    <ul id="Myitem"></ul><br><br>
+    <input type="text" id="MyInput"><br><br>
+
+    <button onclick="AddItem()">Add</button>
+    <script>
+
+        function AddItem(){
+
+            var itemValue = document.getElementById('MyInput').value;
+
+            var listItem = document.createElement('li');
+            listItem.innerHTML = itemValue;
+
+            var Myitem=document.getElementById('Myitem');
+            Myitem.appendChild(listItem);
+        }
+    </script>
+</body>
+</html>
